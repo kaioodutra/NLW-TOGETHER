@@ -5,6 +5,7 @@ export function ensureAdmin(
   response: Response,
   next: NextFunction
 ) {
+  // Verificar se usuário admin
   const admin = true
 
   if (admin) {
@@ -15,6 +16,3 @@ export function ensureAdmin(
     error: "Unauthorized",
   })
 }
-
-//PArou em 45:00
-//https://www.youtube.com/watch?v=jRPFAPp4xsM&t=514s

@@ -23,5 +23,3 @@
   [ ] Não é permitido cadastrar elogios para usuários inválidos
 
   [ ] O usuário precisa está autenticado na aplicação
-
-//Parei em 22min
